@@ -1,0 +1,18 @@
+#hero-image {
+    background: url('../trash-can.png') no-repeat;
+}
+
+
+
+#hero-image img {
+    width: 100%;
+}
+
+.row {
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 5px;
+}

@@ -3,13 +3,17 @@ var urlsToCache = [
   "/",
   "/nav.html",
   "/index.html",
+  "/index.css",
   "/pages/about.html",
   "/pages/contact.html",
   "/pages/home.html",
   "/css/materialize.min.css",
+  "/css/home.css",
   "/js/materialize.min.js",
   "/js/nav.js",
   "/icon.png",
+  "/trash-can.png",
+  '/fonts/'
 ];
 
 self.addEventListener("install", function (event) {
