@@ -1,4 +1,4 @@
-const CACHE_NAME = "SpaceARK7-v1";
+const CACHE_NAME = "SpaceARK7-v3";
 var urlsToCache = [
   "/",
   "/nav.html",
@@ -13,7 +13,8 @@ var urlsToCache = [
   "/js/nav.js",
   "/icon.png",
   "/trash-can.png",
-  '/fonts/'
+  "/css/fonts.css",
+  "/fonts/poppins-v13-latin",
 ];
 
 self.addEventListener("install", function (event) {

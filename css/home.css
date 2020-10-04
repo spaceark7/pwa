@@ -1,18 +1,23 @@
-#hero-image {
-    background: url('../trash-can.png') no-repeat;
-}
-
-
-
-#hero-image img {
-    width: 100%;
+* {
+  font-family: "Poppins", sans-serif;
 }
 
 .row {
-    font-family: 'Poppins', sans-serif;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-h2 {
-    font-size: 48px;
-    line-height: 5px;
+#hero-image {
+  background: url("../trash-can.png") no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.col h2 {
+  position: relative;
+  top: 20%;
+  left: 20%;
+  font-size: 48px;
+  line-height: 50px;
 }
