@@ -1,4 +1,4 @@
-const CACHE_NAME = "SpaceARK7-v12";
+const CACHE_NAME = "SpaceARK7-v13a";
 var urlsToCache = [
   "/",
   "/nav.html",

@@ -57,30 +57,75 @@
     align-items: center;
     flex-wrap: wrap;
     transform-style: preserve-3d;
+   
 }
 .card-view .box {
     position: relative;
     width: 20%;
-    height: 100%;
+    
+    /* height: 100%; */
+    top: -5%;
     margin: 40px;
     background: #2ec1ac;
     border-radius: 20px;
     transform-style: preserve-3d;
     align-items: center;
     justify-content: center;
+    transition: 0.5s;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0, 100px);
+}
+.card-view .box:hover  {
+    
+    top: -15%;
+   
+}
+
+.box .p-title {
+    color: gold;
+    position: relative;
+    font-size: 40px;
+    text-align: center;
+    top: -10%;
+    width: 100%;
+    left: -3%;
+    margin: 10;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0, 100px);
+    transition: 0.5s;
+    z-index: 2;
+    
+}
+.box:hover .p-title {
+    font-size: 45px;
+    color: yellow;
+    top: -5%;
+   
 }
 .box img {
     position: relative;
-    width: 80%;
-    top: -70;
-    left: 25;
-}
-.box .p-title {
-    position: relative;
-    font-size: 50px;
-    top: -10%;
+    width: 100%;
 }
 .box a {
-    position: relative;
+    position: absolute;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    background: rgba(255, 215, 0, 1);
+    border-radius: 20px;
+    bottom: 70;
+    left: 30%;
+    padding: 10px 25px;  
+    transform-style: preserve-3d;
+    transform: translate3d(0,0, 100px);
+    transition: 0.5s;
     
+}
+.box a:hover {
+    font-size: 24px;
+}
+.box .p-desc {
+    color: white;
+    text-align: center;
+    font-weight: 500;
 }
