@@ -23,14 +23,14 @@
     font-size: 50px;
     line-height: 60px;
     left: 20%;
-    top: 8%;
+    top: 10%;
     font-weight: 600;
     height: fit-content;
 }
 .description .text-desc {
     position: relative;
     font-size: 18px;
-    width: 100%;
+    width: 90%;
     left: 20%;
     top: -15%;
     
@@ -38,8 +38,8 @@
 
 #hero-image img {
     position: relative;
-    left: 20%;
-    width: 80%;
+    left: 10%;
+    width: 90%;
   
 }
 
@@ -51,6 +51,20 @@
   font-weight: 800;
    height: fit-content;
 }
+.box-title {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.box-title h2 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+
 .card-view {
     display: flex;
     justify-content: center;
@@ -121,11 +135,17 @@
     transition: 0.5s;
     
 }
-.box a:hover {
+.box:hover a {
     font-size: 24px;
+    left: 25%;
 }
+
 .box .p-desc {
     color: white;
     text-align: center;
     font-weight: 500;
+}
+
+@media (max-width: 1200px) {
+
 }
