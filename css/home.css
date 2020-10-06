@@ -8,39 +8,35 @@
   display: flex;
   flex-wrap: wrap;
 }
-.col { 
-    height: 60%;
-
+.col {
+  height: 60%;
 }
 .description {
-    display: flex;
-    flex-wrap: wrap;
-   
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .description #text-title {
-    position: relative;
-    font-size: 50px;
-    line-height: 60px;
-    left: 20%;
-    top: 10%;
-    font-weight: 600;
-    height: fit-content;
+  position: relative;
+  font-size: 50px;
+  line-height: 60px;
+  left: 20%;
+  top: 10%;
+  font-weight: 600;
+  height: fit-content;
 }
 .description .text-desc {
-    position: relative;
-    font-size: 18px;
-    width: 90%;
-    left: 20%;
-    top: -15%;
-    
+  position: relative;
+  font-size: 18px;
+  width: 90%;
+  left: 20%;
+  top: -15%;
 }
 
 #hero-image img {
-    position: relative;
-    left: 10%;
-    width: 90%;
-  
+  position: relative;
+  left: 10%;
+  width: 90%;
 }
 
 .col h2 {
@@ -49,263 +45,255 @@
   left: 20%;
   font-size: 15em;
   font-weight: 800;
-   height: fit-content;
+  height: fit-content;
 }
 .box-title {
-    position: relative;
-    width: 100%;
-    height: 20%;
-    top: 3%;
-    justify-content: center;
-    align-items: center;
+  position: relative;
+  width: 100%;
+  height: 20%;
+  top: 3%;
+  justify-content: center;
+  align-items: center;
+  background: #006a71;
+  color: gold;
 }
 .box-title h2 {
-    position: relative;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 500;
-    margin: 0;
-    padding: 40px;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+  padding: 40px;
+  font-weight: 700;
 }
-
-
-
 
 .card-view {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    transform-style: preserve-3d;
-   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  transform-style: preserve-3d;
+  background: #006a71;
 }
 .card-view .box {
-    position: relative;
-    width: 20%;
-    
-    /* height: 100%; */
-    top: -5%;
-    margin: 40px;
-    background: #2ec1ac;
-    border-radius: 20px;
-    transform-style: preserve-3d;
-    align-items: center;
-    justify-content: center;
-    transition: 0.5s;
-    transform-style: preserve-3d;
-    transform: translate3d(0,0, 100px);
+  position: relative;
+  width: 20%;
+
+  /* height: 100%; */
+  top: -5%;
+  margin: 40px;
+  background: #2ec1ac;
+  border-radius: 20px;
+  transform-style: preserve-3d;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 100px);
 }
 
-
-.card-view .box:hover  {
-    
-    top: -15%;
-   
+.card-view .box:hover {
+  top: -15%;
 }
 
 .box .p-title {
-    color: gold;
-    position: relative;
-    font-size: 35px;
-    text-align: center;
-    top: -10%;
-    width: 100%;
-    left: -3%;
-    margin: 10;
-    transform-style: preserve-3d;
-    transform: translate3d(0,0, 100px);
-    transition: 0.5s;
-    z-index: 2;
-    
+  color: gold;
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  top: -10%;
+  width: 100%;
+  left: -3%;
+  margin: 10;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 100px);
+  transition: 0.5s;
+  z-index: 2;
 }
 .box:hover .p-title {
-    font-size: 40px;
-    color: yellow;
-    top: -5%;
-   
+  font-size: 40px;
+  color: yellow;
+  top: -5%;
 }
 .box img {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 .box a {
-    position: absolute;
-    height: fit-content;
-    text-decoration: none;
-    color: black;
-    background: rgba(255, 215, 0, 1);
-    border-radius: 20px;
-    bottom: 70;
-    left: 30%;
-    padding: 10px 25px;  
-    transform-style: preserve-3d;
-    transform: translate3d(0,0, 100px);
-    transition: 0.5s;
-    
+  position: absolute;
+  height: fit-content;
+  text-decoration: none;
+  color: black;
+  background: rgba(255, 215, 0, 1);
+  border-radius: 20px;
+  bottom: 70;
+  left: 30%;
+  padding: 10px 25px;
+  transform-style: preserve-3d;
+  transform: translate3d(0, 0, 100px);
+  transition: 0.5s;
 }
 .box:hover a {
-    font-size: 24px;
-    left: 20%;
+  font-size: 24px;
+  left: 20%;
 }
 
 .box .p-desc {
-    color: white;
-    text-align: center;
-    font-weight: 500;
+  color: white;
+  text-align: center;
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {
-    .card-view {
-        position: relative;
-        top: 20%;
-    }
-    .box-title {
-        position: relative;
-        top: 20%;
-    }
-    .box .p-title {
-        font-size: 25px;
-        left: -5%;  
-    }
-    .box:hover .p-title {
-        font-size: 30px;
-    }
-    .box a {
-        left: 25%;
-        padding: 5px 15px;  
-    }
-    .box:hover a {
-        font-size: 18px;
-    }
-    .box .p-desc {
-        font-size: 12px;
-    }
-    .box-title h2 {
-        padding: 20px 10px;
-        top: 25%;
-    }
-    #hero-image img {
-        width: 100%;
-        top: 10%;
-    }
+  .card-view {
+    position: relative;
+    top: 20%;
+  }
+  .box-title {
+    position: relative;
+    top: 20%;
+  }
+  .box .p-title {
+    font-size: 25px;
+    left: -5%;
+  }
+  .box:hover .p-title {
+    font-size: 30px;
+  }
+  .box a {
+    left: 25%;
+    padding: 5px 15px;
+  }
+  .box:hover a {
+    font-size: 18px;
+  }
+  .box .p-desc {
+    font-size: 12px;
+  }
+  .box-title h2 {
+    padding: 20px 10px;
+    top: 25%;
+  }
+  #hero-image img {
+    width: 100%;
+    top: 10%;
+  }
 
-    .description .text-desc  {
-       padding: 20px;
-    }
+  .description .text-desc {
+    padding: 20px;
+  }
 }
 
 @media (max-width: 866px) {
-    .col h2 {
-        left: 10%;
-        font-size: 12em;
-    }
-    .description #text-title {
-        font-size: 35px;
-        line-height: 45px;
-        left: 10%;
-    }
+  .col h2 {
+    left: 10%;
+    font-size: 12em;
+  }
+  .description #text-title {
+    font-size: 35px;
+    line-height: 45px;
+    left: 10%;
+  }
 
-    .description .text-desc {
-        left: 7%;
-    }
-    #hero-image img {
-        width: 130%;
-        top: 10%;
-        left:  -10%;
-    }
-    .card-view {
-        top: 20%;
-        
-    }
-    .card-view .box {
-        width: 30%;
-    }
-    .box .p-title {
-        font-size: 20px;  
-    }
-    .box:hover .p-title {
-        font-size: 25px;
-    }
-    .box a {
-        left: 25%;
-        padding: 5px 15px;  
-    }
-    .box:hover a {
-        font-size: 16px;
-    }
-    .box .p-desc {
-        font-size: 10px;
-        pad: 10px 10px;
-    }
-    .box-title {
-        top: 20%;
-    }
+  .description .text-desc {
+    left: 7%;
+  }
+  #hero-image img {
+    width: 130%;
+    top: 10%;
+    left: -10%;
+  }
+  .card-view {
+    top: 20%;
+  }
+  .card-view .box {
+    width: 30%;
+  }
+  .box .p-title {
+    font-size: 20px;
+  }
+  .box:hover .p-title {
+    font-size: 25px;
+  }
+  .box a {
+    left: 25%;
+    padding: 5px 15px;
+  }
+  .box:hover a {
+    font-size: 16px;
+  }
+  .box .p-desc {
+    font-size: 10px;
+    pad: 10px 10px;
+  }
+  .box-title {
+    top: 20%;
+  }
 }
 
 @media (max-width: 475px) {
-    .col h2 {
-        font-size: 9em;
-        left: 20%;
-    }
-    .description #text-title {
-        font-size: 30px;
-        line-height: 35px;
-        top: 12%;
-        left: 20%;
-    }
-    .description .text-desc {
-        text-align: center;
-        padding: 50px 20px;
-    }
-    .box-title h2 {
-        top: 0;
-        padding: 5px;
-    }
-    .card-view {
-        top: 5%;
-    }
-    .card-view .box {
-        width: 60%;
-    }
-    .card-view .box:hover {
-        top: 0%;
-        width: 70%;
-    }
-    .box a {
-        bottom: 15%;
-        left: 25%;
-        font-size: 18px;
-    }
-    .box:hover a {
-        left: 30%;
-       
-        font-size: 20px;
-    }
-    
+  .col h2 {
+    font-size: 9em;
+    left: 20%;
+  }
+  .description #text-title {
+    font-size: 30px;
+    line-height: 35px;
+    top: 12%;
+    left: 20%;
+  }
+  .description .text-desc {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .box-title h2 {
+    top: 0;
+    padding: 5px;
+  }
+  .card-view {
+    top: 5%;
+  }
+  .card-view .box {
+    width: 60%;
+  }
+  .card-view .box:hover {
+    top: 0%;
+    width: 70%;
+  }
+  .box a {
+    bottom: 15%;
+    left: 25%;
+    font-size: 18px;
+  }
+  .box:hover a {
+    left: 30%;
+
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 320px) {
-    .col h2 {
-        left: 10%;
-    }
-    .description #text-title {
-        left: 10%;
-    }
-    #hero-image img {
-        width: 130%;
-        top: 30%;
-    }
-    .card-view {
-        top: 10%;
-    }
-    .box a {
-        bottom: 20%;
-        left: 20%;
-        font-size: 14px;
-    }
-    .box:hover a {
-        left: 30%;
-        bottom: 20%;
-        font-size: 20px;
-    }
+  .col h2 {
+    left: 10%;
+  }
+  .description #text-title {
+    left: 10%;
+  }
+  #hero-image img {
+    width: 130%;
+    top: 30%;
+  }
+  .card-view {
+    top: 10%;
+  }
+  .box a {
+    bottom: 20%;
+    left: 20%;
+    font-size: 14px;
+  }
+  .box:hover a {
+    left: 30%;
+    bottom: 20%;
+    font-size: 20px;
+  }
 }

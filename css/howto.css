@@ -118,3 +118,29 @@
     width: 100%;
   }
 }
+
+@media (max-width: 375px) {
+  .container-1 .right {
+    bottom: -40%;
+    width: 50%;
+    left: 25%;
+  }
+  .left .ht-title {
+    top: 0%;
+    font-size: 24px;
+  }
+  .left .ht-desc {
+    top: -2%;
+    font-size: 16px;
+  }
+  .left .ht-ldesc {
+    top: -2%;
+    font-size: 12px;
+  }
+  .container-1 .right {
+    padding: 40px;
+  }
+  .container-1 .right img {
+    left: 5%;
+  }
+}

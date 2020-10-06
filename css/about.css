@@ -9,9 +9,16 @@
   position: relative;
   width: 100%;
   height: 100vmin;
-  background: url(/assets/logokartana5.png) no-repeat 50% 50%;
+  background: url(/assets/v1-logokartana.png) no-repeat 50% 50%;
   background-size: cover;
   background-attachment: fixed;
+}
+.head-content h2 {
+  text-transform: uppercase;
+  font-weight: 800;
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
 }
 section {
   position: relative;
@@ -65,6 +72,9 @@ section .content-text p {
     background-size: contain 50% 50%;
     height: 100vh;
   }
+  .head-content h2 {
+    font-size: 2.5em;
+  }
   section .content-text p {
     font-size: 12px;
   }
@@ -73,6 +83,9 @@ section .content-text p {
   }
 }
 @media (max-width: 375px) {
+  .head-content h2 {
+    font-size: 2em;
+  }
   section {
     flex-wrap: wrap;
     height: 100vh;
