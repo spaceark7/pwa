@@ -1,0 +1,120 @@
+.main-container {
+  width: 100%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.container-1 {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.container-1 .left {
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.left .ht-title {
+  position: relative;
+  font-weight: 700;
+  top: 15%;
+  left: 10%;
+}
+.left .ht-desc {
+  position: relative;
+  width: 80%;
+  top: 15%;
+  left: 10%;
+  font-size: 24px;
+}
+.left .ht-ldesc {
+  position: relative;
+  width: 80%;
+  top: 15%;
+  left: 10%;
+  font-size: 24px;
+}
+
+.container-1 .right {
+  width: 40%;
+  height: 100vh;
+}
+.right img {
+  position: relative;
+  width: 80%;
+  top: 15%;
+}
+
+#box-1 {
+  background: #e8505b;
+}
+#box-2 {
+  background: #f9d56e;
+}
+#box-3 {
+  background: #f3ecc2;
+}
+#box-4 {
+  background: #14b1ab;
+}
+
+@media (max-width: 1200px) {
+  .left .ht-desc {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .left .ht-ldesc {
+    font-size: 20px;
+  }
+  .right img {
+    top: 20%;
+  }
+}
+@media (max-width: 768px) {
+  .right img {
+    top: 30%;
+  }
+  .left .ht-title {
+    top: 5%;
+  }
+  .left .ht-desc {
+    top: 5%;
+  }
+  .left .ht-ldesc {
+    top: 5%;
+  }
+}
+@media (max-width: 475px) {
+  .container-1 .left {
+    width: 100%;
+  }
+  .container-1 .right {
+    position: absolute;
+    left: 30%;
+    bottom: -50%;
+  }
+  .left .ht-title {
+    font-size: 28px;
+  }
+  .left .ht-desc {
+    font-size: 18px;
+  }
+  .left .ht-ldesc {
+    font-size: 14px;
+  }
+  .container-1 .right {
+    bottom: -40%;
+    width: 50%;
+    left: 20%;
+  }
+  .container-1 .right img {
+    width: 100%;
+  }
+}

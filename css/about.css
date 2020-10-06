@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.head-content {
+  position: relative;
+  width: 100%;
+  height: 100vmin;
+  background: url(/assets/logokartana5.png) no-repeat 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+section {
+  position: relative;
+  height: auto;
+  background: rgb(255, 247, 247);
+  display: flex;
+}
+
+section .imgBox {
+  position: sticky;
+  top: 0;
+  min-width: 50%;
+  height: 100vh;
+}
+
+section .imgBox img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -50%);
+
+  max-width: 600px;
+}
+
+section .content-text {
+  padding: 100px 20px 100px 100px;
+  text-align: right;
+}
+section .content-text p {
+  font-size: 20px;
+}
+
+#s1 {
+  background: #f56a79;
+}
+#s2 {
+  background: #ff414d;
+}
+#s3 {
+  background: #1aa6b7;
+}
+
+@media (max-width: 768px) {
+  section .content-text p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 475px) {
+  .head-content {
+    background-size: contain 50% 50%;
+    height: 100vh;
+  }
+  section .content-text p {
+    font-size: 12px;
+  }
+  section .content-text {
+    padding: 20px 20px 10px 10px;
+  }
+}
+@media (max-width: 375px) {
+  section {
+    flex-wrap: wrap;
+    height: 100vh;
+  }
+  section .imgBox {
+    width: 100%;
+    height: 20%;
+  }
+  section .imgBox img {
+    top: 10%;
+    width: 50%;
+  }
+  section .content-text {
+    padding: 20px 20px 200px 10px;
+    text-align: center;
+  }
+}
